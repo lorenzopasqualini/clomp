@@ -1,5 +1,5 @@
 'use client';
-import Button from '@/components/ui/button';
+import Button from '@/components/button';
 import useCart from '@/hooks/useCart';
 import { ShoppingBag } from 'lucide-react';
 import { useRouter } from 'next/navigation';

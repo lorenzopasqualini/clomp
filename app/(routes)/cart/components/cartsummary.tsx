@@ -1,5 +1,5 @@
 'use client';
-import Button from '@/components/ui/button';
+import Button from '@/components/button';
 import Currency from '@/components/ui/currency';
 import useCart from '@/hooks/useCart';
 import axios from 'axios';
