@@ -48,7 +48,7 @@ const Filter: React.FC<FilterProps> = ({ data, name, valueKey }) => {
 							onClick={() => onClick(filter.id)}
 							className={cn(
 								'rounded-md text-small text-gray-800 p-2 bg-white border border-gray-300',
-								selectedValue === filter.id && 'bg-black text-white'
+								selectedValue === filter.id && 'bg-[#5c39fc] text-white'
 							)}
 						>
 							{filter.name}
