@@ -1,10 +1,11 @@
 'use client';
+
 import Button from '@/components/button';
 import useCart from '@/hooks/useCart';
+import { cn } from '@/lib/utils';
 import { ShoppingBag } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 import { useEffect, useState } from 'react';
-import { cn } from '@/lib/utils';
 
 const NavbarActions = () => {
 	const [isMounted, setMounted] = useState(false);
@@ -24,7 +25,7 @@ const NavbarActions = () => {
 			<Button
 				onClick={() => router.push('/cart')}
 				className={cn(
-					'flex items-center rounded-full px-4 py-2',
+					'flex items-center rounded-md p-2',
 					cart.items.length !== 0
 						? 'animate-pulse bg-[#5c39fc]'
 						: 'animate-none bg-neutral-500'
