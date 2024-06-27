@@ -1,8 +1,9 @@
 # <img src="https://github.com/lorenzopasqualini/clomp/assets/63103853/a77002f2-10a9-4b49-8d43-e9092a28ef63" width="20" align=”center”> CLOMP
 
->This project is down right now due to PlanetScale's free plan being discontinued. I'll eventually migrate the current MySQL database to a serverless Postgres one, possibly NeonDB or Supabase for a BaaS.
+> [!CAUTION]
+>This project is down right now due to PlanetScale's free plan being discontinued. I'll eventually migrate the current MySQL database to Postgres, possibly NeonDB or Supabase.
 >
->I'll get around to it, just not today.
+> I'll get around to it, just not today.
 
 Clomp is an E-Commerce platform built on top of Clomp's Administrator Dashboard ([ClompAd](https://github.com/lorenzopasqualini/clompAd)), in which products can be sold to the end-user on the main storefront; all of this is through the store owner handling the dashboard behind the scenes, which has its own interface.
 
